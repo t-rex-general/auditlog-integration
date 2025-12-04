@@ -1,0 +1,12 @@
+# venv folder
+.venv
+
+.idea
+.vscode
+
+# local files
+.env
+events.txt
+token.txt
+last_event.txt
+audit_integration.log
