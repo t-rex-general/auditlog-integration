@@ -44,7 +44,7 @@ class AuditLogClient:
         start_time = time.time()
 
         async with aiohttp.ClientSession() as session:
-            params = {"limit": "100"}
+            params = {"limit": "1000"}
             if cursor:
                 params["cursor"] = cursor
 
